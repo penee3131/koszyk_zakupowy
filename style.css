@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+}
+
+#box {
+    background: white;
+    width: 350px;
+    padding: 20px;
+    margin-top: 50px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+}
+
+h1 { text-align: center; font-size: 24px; }
+
+.input-group { display: flex; flex-direction: column; gap: 5px; }
+
+input, button {
+    padding: 8px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover { background-color: #45a049; }
+
+#wyczyscWszystko {
+    background-color: #ff4d4d;
+    margin-top: 10px;
+    width: 100%;
+}
+
+ul { list-style: none; padding: 0; }
+
+
+.produkt-item {
+    background: #fafafa;
+    border-bottom: 1px solid #ddd;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+}

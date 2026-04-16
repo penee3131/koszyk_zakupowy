@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Moja Lista Zakupów</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="box">
+        <h1>Koszyk Zakupowy </h1>
+        
+        <div class="input-group">
+            <input type="text" id="nazwaProduktu" placeholder="Co kupujesz?">
+            <input type="number" id="cenaProduktu" placeholder="Cena (zł)">
+            <button id="przyciskDodaj">Dodaj do listy</button>
+        </div>
+
+        <hr>
+
+        <ul id="listaProduktow"></ul>
+
+        <div class="podsumowanie">
+            <h3>Suma: <span id="sumaCalkowita">0</span> zł</h3>
+            <button id="wyczyscWszystko">Wyczyść listę</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
