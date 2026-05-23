@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>FitLife - Kalkulator BMI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="hero">
+       
+        <img src="baczorek.jfif" alt="Zdrowy styl życia" class="hero-img">
+        <h1>🍏 FitLife</h1>
+        <p>Twój prosty kalkulator zdrowia</p>
+    </header>
+
+    <nav class="tabs">
+        <button class="tab-btn" onclick="pokazKalkulator()">Kalkulator BMI</button>
+        <button class="tab-btn" onclick="pokazPorady()">Porady Zdrowotne</button>
+    </nav>
+
+    <main class="container">
+        
+       
+        <div id="sekcja-kalkulator">
+            <h2>Oblicz swój wskaźnik BMI</h2>
+            <p>Podaj dane, aby sprawdzić swoją wagę.</p>
+            <input type="number" id="waga" placeholder="Twoja waga (kg)">
+            <input type="number" id="wzrost" placeholder="Twój wzrost (cm)">
+            <button id="main-btn" onclick="liczBMI()">Oblicz wynik</button>
+            
+            <div id="wynik">
+                
+            </div>
+        </div>
+
+        
+        <div id="sekcja-porady">
+            <h2>Jak zdrowo schudnąć?</h2>
+            <div class="porada">
+                <strong>1. Pij wodę</strong>
+                <p>Szklanka wody przed posiłkiem pomaga ograniczyć apetyt.</p>
+            </div>
+            <div class="porada">
+                <strong>2. Więcej warzyw</strong>
+                <p>Warzywa mają mało kalorii, a dużo błonnika, który syci.</p>
+            </div>
+            <div class="porada">
+                <strong>3. Regularny ruch</strong>
+                <p>Nawet 30-minutowy spacer każdego dnia robi wielką różnicę.</p>
+            </div>
+        </div>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
